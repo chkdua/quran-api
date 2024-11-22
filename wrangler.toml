@@ -1,4 +1,4 @@
 name = "quran-api"
-main = "config.js"
+main = "app.json"
 compatibility_date = "2024-05-29"
 compatibility_flags = ["nodejs_compat"]
