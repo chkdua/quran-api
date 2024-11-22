@@ -1,0 +1,16 @@
+            - name: Cloudflare Page Deploy
+  # You may pin to the exact commit or the version.
+  # uses: Cyb3r-Jak3/actions-cloudflare-pages@d8dc5f27bf1a8d005f727f5154a2af73a1d06105
+  uses: Cyb3r-Jak3/actions-cloudflare-pages@v2.0.0
+  with:
+    # The account ID your domain, which can be found in the right sidebar of your domain's overview page on the Cloudflare dashboard.
+    account: 
+    # Name of the project to deploy. The repo/account must have been authorized through the Pages UI dash before
+    project: 
+    # The email address you registered your Cloudflare account with.
+    email: # optional
+    # Your Global Cloudflare API key.
+    global_token: # optional
+    # Cloudflare API token to use
+    api_token: # optional
+          
